@@ -1,13 +1,11 @@
 {
   "name": "com.vtf.vtflogger",
-  "version": "1.2.3",
+  "version": "1.0.0",
   "displayName": "VTF Logger",
   "description": "This is logger for vtf",
-  "unity": "2019.1",
+  "unity": "2022.1",
   "dependencies": {
-    "com.cysharp.csprojmodifier": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
-    "com.cysharp.zlogger": "https://github.com/Cysharp/ZLogger.git?path=src/ZLogger.Unity/Assets/ZLogger.Unity",
-    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity"
+    
   }
 }
 
