@@ -1,5 +1,5 @@
 {
-  "name": "com.vtf.vtflogger",
+  "name": "com.vtf.logging",
   "version": "1.0.0",
   "displayName": "VTF Logger",
   "description": "This is logger for vtf",
