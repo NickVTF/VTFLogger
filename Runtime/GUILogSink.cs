@@ -88,8 +88,11 @@ namespace VTFLogger.Runtime
         
         private void DrawLogWindow()
         {
+            var width = Screen.width > 1200 ? 1200 : Screen.width;
+            var height = Screen.height > 760 ? 760 : Screen.height;
+            
             // Main Window
-            Rect windowRect = new Rect(Screen.width - 1200 - 20, Screen.height - 760 - 20, 1200, 760);
+            Rect windowRect = new Rect(Screen.width - width, Screen.height - height, width - 20, height - 20);
             GUI.Window(0, windowRect, id =>
             {
                 // Toolbar for filtering
